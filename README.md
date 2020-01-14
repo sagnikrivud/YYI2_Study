@@ -6,7 +6,7 @@
     <br>
 </p>
 
-Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
+<!-- Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
 The template contains the basic features including user login/logout and a contact page.
@@ -15,7 +15,7 @@ features to your application.
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![Build Status](https://travis-ci.com/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.com/yiisoft/yii2-app-basic)
+[![Build Status](https://travis-ci.com/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.com/yiisoft/yii2-app-basic) -->
 
 DIRECTORY STRUCTURE
 -------------------
@@ -61,7 +61,7 @@ directly under the Web root.
 http://localhost/basic/web/
 ~~~
 
-### Install from an Archive File
+<!-- ### Install from an Archive File
 
 Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
 a directory named `basic` that is directly under the Web root.
@@ -79,7 +79,7 @@ You can then access the application through the following URL:
 
 ~~~
 http://localhost/basic/web/
-~~~
+~~~ -->
 
 
 ### Install with Docker
@@ -128,7 +128,7 @@ return [
 - Refer to the README in the `tests` directory for information specific to basic application tests.
 
 
-TESTING
+<!-- TESTING
 -------
 
 Tests are located in `tests` directory. They are developed with [Codeception PHP Testing Framework](http://codeception.com/).
@@ -230,4 +230,4 @@ vendor/bin/codecept run unit -- --coverage-html --coverage-xml
 vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
 ```
 
-You can see code coverage output under the `tests/_output` directory.
+You can see code coverage output under the `tests/_output` directory. -->
