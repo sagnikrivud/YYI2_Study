@@ -2,7 +2,7 @@
 .idea
 
 # netbeans project files
-nbproject
+# nbproject
 
 # zend studio for eclipse project files
 .buildpath
@@ -16,7 +16,7 @@ Thumbs.db
 /vendor
 
 # composer itself is not needed
-composer.phar
+# composer.phar
 
 # Mac DS_Store Files
 .DS_Store
@@ -30,4 +30,4 @@ tests/_output/*
 tests/_support/_generated
 
 #vagrant folder
-/.vagrant
+# /.vagrant
