@@ -5,12 +5,12 @@
 # nbproject
 
 # zend studio for eclipse project files
-.buildpath
-.project
-.settings
+# .buildpath
+# .project
+# .settings
 
 # windows thumbnail cache
-Thumbs.db
+# Thumbs.db
 
 # composer vendor dir
 # /vendor
@@ -22,7 +22,7 @@ Thumbs.db
 .DS_Store
 
 # phpunit itself is not needed
-phpunit.phar
+# phpunit.phar
 # local phpunit config
 /phpunit.xml
 
