@@ -13,8 +13,8 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     private static $users = [
         '100' => [
             'id' => '100',
-            'username' => 'admin',
-            'password' => 'admin',
+            'username' => 'sagnik@mail.com',
+            'password' => 'sagnik',
             'authKey' => 'test100key',
             'accessToken' => '100-token',
         ],
@@ -101,4 +101,12 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     {
         return $this->password === $password;
     }
+
+
+    public function validateusername()
+    {
+        return $this->username == $username;
+    }
+
+    
 }

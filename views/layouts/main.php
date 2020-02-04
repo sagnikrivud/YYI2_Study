@@ -38,9 +38,10 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Home',     'url' => ['/site/index']],
+            ['label' => 'About',    'url' => ['/site/about']],
             // ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Register', 'url' => ['/site/add']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -67,13 +68,18 @@ AppAsset::register($this);
     </div>
 </div>
 
+                                <!-- footer section -->
+
 <footer class="footer">
     <div class="container">
     <p class="pull-left">&copy; <font color="blue">SAGNIK DEY</font><?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <!-- <p class="pull-right"><?= Yii::powered() ?></p> -->
     </div>
 </footer>
+
+
+                                    <!-- end -->
 
 <?php $this->endBody() ?>
 </body>
